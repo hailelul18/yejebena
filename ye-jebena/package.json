@@ -1,0 +1,8 @@
+{
+  "name": "ye-jebena-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Ye’ Jebena (የጀበና) with a moderated review system",
+  "scripts": { "start": "node server/server.js" },
+  "engines": { "node": ">=22.5" }
+}

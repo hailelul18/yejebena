@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ye’ Jebena | የጀበና — Traditional Ethiopian Coffee Experience</title>
+  <meta name="description" content="Ye’ Jebena (የጀበና) — a warm Ethiopian coffee house built around the traditional jebena coffee ceremony, freshly roasted coffee and genuine Ethiopian hospitality.">
+  <meta name="theme-color" content="#2a1810">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="canonical" href="/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ye’ Jebena | የጀበና — Traditional Ethiopian Coffee">
+  <meta property="og:description" content="Experience the taste of traditional Ethiopian coffee — the jebena ceremony, fresh roast and warm hospitality.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Sans+Ethiopic:wght@400;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Ye’ Jebena","alternateName":"የጀበና","servesCuisine":"Ethiopian","image":"assets/og-image.jpg"}
+  </script>
+</head>
+<body>
+
+<!-- ============ Branded loader ============ -->
+<div class="loader" id="loader" role="status" aria-live="polite">
+  <div class="loader__inner">
+    <img class="loader__logo" src="assets/logo.png" alt="Ye’ Jebena logo" width="220" height="113">
+    <svg class="jebena" viewBox="0 0 160 190" aria-hidden="true">
+      <g class="steam" fill="none" stroke="#c9a24a" stroke-width="3" stroke-linecap="round">
+        <path d="M70 34c-8-10 8-16 0-28"/><path d="M84 34c-8-10 8-16 0-28" style="animation-delay:.5s"/><path d="M98 34c-8-10 8-16 0-28" style="animation-delay:1s"/>
+      </g>
+      <!-- jebena: round base, long neck, spout, handle -->
+      <g class="jebena__body">
+        <path d="M58 44h40l-6 22c22 10 34 34 34 54 0 28-22 48-48 48s-48-20-48-48c0-20 12-44 34-54z" fill="#b5683c"/>
+        <path d="M48 70l-22-18 8-8 28 20z" fill="#b5683c"/>
+        <path d="M130 90c26 4 28 40 6 52" fill="none" stroke="#b5683c" stroke-width="9" stroke-linecap="round"/>
+        <rect x="52" y="38" width="52" height="10" rx="5" fill="#c9a24a"/>
+        <path d="M44 126c20 10 48 10 68 0" stroke="#c9a24a" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <circle cx="78" cy="106" r="9" fill="none" stroke="#c9a24a" stroke-width="3"/>
+      </g>
+      <!-- pour stream + cup -->
+      <path class="pour" d="M24 50v118" stroke="#6b3d22" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M8 168h34l-4 18H12z" fill="#f6eee0" stroke="#c9a24a" stroke-width="2"/>
+      <path class="cupfill" d="M11 176h28l-1 8H12z" fill="#6b3d22"/>
+    </svg>
+    <p class="loader__text">Brewing Your Experience…</p>
+  </div>
+</div>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ Navigation ============ -->
+<header class="nav" id="nav">
+  <div class="wrap nav__bar">
+    <a class="nav__brand" href="#home" aria-label="Ye’ Jebena home">
+      <img src="assets/mark.png" alt="" width="38" height="30">
+      <span><b>Ye’ Jebena</b><i lang="am">የጀበና</i></span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu"><span></span><span></span><span></span></button>
+    <nav class="nav__menu" id="navMenu" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#coffee">Our Coffee</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn--gold btn--sm nav__cta" href="#contact">Visit Us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ Hero ============ -->
+<section class="hero" id="home">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__pattern" aria-hidden="true"></div>
+  <div class="wrap hero__content">
+    <div class="logo-badge reveal">
+      <img src="assets/logo.png" alt="Ye’ Jebena — የጀበና logo" width="300" height="155" fetchpriority="high">
+    </div>
+    <h1 class="reveal d1">Experience the Taste of <em>Traditional</em> Ethiopian Coffee.</h1>
+    <p class="hero__am reveal d2" lang="am">የባህላችን ጣዕም በየጀበና</p>
+    <p class="hero__lead reveal d3">Slow-brewed in the jebena, poured with care and shared the Ethiopian way — come sit, breathe and connect over a cup that takes its time.</p>
+    <div class="hero__cta reveal d4">
+      <a class="btn btn--gold" href="#coffee">Explore Our Coffee</a>
+      <a class="btn btn--ghost" href="#contact">Find Our Location</a>
+    </div>
+  </div>
+  <a class="scrollcue" href="#about" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ============ About ============ -->
+<section class="section about" id="about">
+  <div class="wrap about__grid">
+    <div class="about__media reveal">
+      <figure class="frame">
+        <img src="assets/photos/interior-basket.jpg" alt="Handwoven basket wall art between two woven pendant lamps at Ye’ Jebena" loading="lazy" width="1180" height="1060">
+      </figure>
+      <div class="about__seal" aria-hidden="true"><img src="assets/mark.png" alt="" width="64" height="50"></div>
+    </div>
+    <div class="about__text">
+      <p class="eyebrow reveal">Our Story</p>
+      <h2 class="reveal d1">A cup of coffee is an invitation.</h2>
+      <p class="reveal d2">In Ethiopia, coffee is never rushed. It is roasted, ground and brewed in front of you, poured from the jebena into small cups and shared in three rounds — <i>abol</i>, <i>tona</i> and <i>baraka</i>. It is how neighbours catch up, how guests are welcomed and how friendships are kept.</p>
+      <p class="reveal d2">Ye’ Jebena (የጀበና) was created to bring that feeling to a modern, comfortable space: a place where quality coffee, handcrafted Ethiopian details and genuine hospitality come together.</p>
+      <ul class="values reveal d3">
+        <li><b>Hospitality</b><span>Everyone who walks in is a guest.</span></li>
+        <li><b>Tradition</b><span>The jebena at the heart of every cup.</span></li>
+        <li><b>Quality</b><span>Fresh coffee, prepared with care.</span></li>
+        <li><b>Connection</b><span>A place to sit, talk and stay a while.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Our Coffee & Experience ============ -->
+<section class="section coffee" id="coffee">
+  <div class="wrap">
+    <header class="section__head reveal">
+      <p class="eyebrow">Our Coffee &amp; Experience</p>
+      <h2>Made slowly. Shared warmly.</h2>
+      <p>Five reasons the jebena way tastes different.</p>
+    </header>
+    <div class="cards">
+      <article class="card reveal">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 12h16l-3 9c9 4 14 12 14 20 0 11-8 17-19 17S13 52 13 41c0-8 5-16 14-20z" fill="currentColor"/><path d="M13 30L5 22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M50 36c8 2 8 14 1 17" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+        <h3>The Jebena Ceremony</h3>
+        <p>Coffee brewed in the traditional clay jebena and poured from a height into small cups — the heart of Ethiopian hospitality.</p>
+      </article>
+      <article class="card reveal d1">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="32" rx="14" ry="22" transform="rotate(35 32 32)" fill="currentColor"/><path d="M20 46c10-6 14-18 24-28" stroke="#f6eee0" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+        <h3>Freshly Roasted</h3>
+        <p>Ethiopian coffee roasted and ground fresh, so the aroma fills the room before the first sip.</p>
+      </article>
+      <article class="card reveal d2">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 28h38v10c0 10-8 18-19 18S10 48 10 38z" fill="currentColor"/><path d="M48 31h4a6 6 0 010 12h-5" stroke="currentColor" stroke-width="4" fill="none"/><path d="M22 20c-3-4 3-6 0-10M32 20c-3-4 3-6 0-10M42 20c-3-4 3-6 0-10" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+        <h3>Traditional Preparation</h3>
+        <p>Unhurried and done by hand — the way coffee has been prepared in Ethiopian homes for generations.</p>
+      </article>
+      <article class="card reveal d3">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="22" fill="currentColor"/><circle cx="32" cy="32" r="10" fill="none" stroke="#f6eee0" stroke-width="3"/><path d="M32 6v10M32 48v10M6 32h10M48 32h10" stroke="#f6eee0" stroke-width="3"/></svg>
+        <h3>Snacks &amp; Culture</h3>
+        <p>Traditional snacks and handcrafted Ethiopian details that make every visit feel like a cultural experience.</p>
+      </article>
+      <article class="card reveal d4">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M12 28h40v8H12zM16 36v18M48 36v18M20 28v-12h24v12" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <h3>Indoor &amp; Outdoor Seating</h3>
+        <p>Comfortable seating to linger — inside among woven details, or outside under the trees.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Gallery ============ -->
+<section class="section gallery" id="gallery">
+  <div class="wrap">
+    <header class="section__head reveal">
+      <p class="eyebrow">Gallery</p>
+      <h2>A look inside Ye’ Jebena</h2>
+      <p>Tap any photo to view it larger.</p>
+    </header>
+    <div class="gallery__grid" id="galleryGrid" aria-live="polite"></div>
+    <p class="gallery__note" id="galleryNote" hidden>More photos coming soon — follow us on social media to see the latest.</p>
+  </div>
+</section>
+
+<!-- ============ Reviews ============ -->
+<section class="section reviews" id="reviews">
+  <div class="wrap">
+    <header class="section__head reveal">
+      <p class="eyebrow">Reviews</p>
+      <h2>What our guests say</h2>
+      <p>Honest feedback from real visitors. Every review is read, and none is treated differently.</p>
+    </header>
+
+    <div class="reviews__grid">
+      <div class="reviews__summary reveal" id="ratingSummary">
+        <div class="score" id="avgScore">–</div>
+        <div class="stars stars--static" id="avgStars" aria-hidden="true"></div>
+        <p class="count" id="reviewCount">Be the first to review</p>
+        <a class="btn btn--gold btn--block" id="googleBtn" href="#contact" target="_blank" rel="noopener noreferrer">Leave Us a Google Review</a>
+        <p class="small">Prefer Google? You can always post a public review there, whatever you rate us.</p>
+      </div>
+
+      <form class="reviewform reveal d1" id="reviewForm" novalidate>
+        <h3>Share your experience</h3>
+        <fieldset class="starpick">
+          <legend>Your rating</legend>
+          <div class="starpick__row" id="starPick" role="radiogroup" aria-label="Rating from 1 to 5 stars"></div>
+          <p class="starpick__label" id="starLabel" aria-live="polite">Tap a star</p>
+        </fieldset>
+        <label class="field">Your name
+          <input type="text" id="rvName" name="name" maxlength="60" autocomplete="name" required placeholder="e.g. Hanna">
+        </label>
+        <label class="field">Your feedback <span>(optional)</span>
+          <textarea id="rvText" name="text" rows="4" maxlength="800" placeholder="Tell us about your visit…"></textarea>
+        </label>
+        <!-- honeypot: real visitors never see this -->
+        <div class="hp" aria-hidden="true"><label>Website<input type="text" id="rvWebsite" name="website" tabindex="-1" autocomplete="off"></label></div>
+        <p class="form__msg" id="formMsg" role="alert"></p>
+        <button class="btn btn--brown btn--block" type="submit" id="rvSubmit">Submit Review</button>
+        <p class="small">Reviews are checked briefly by our team before appearing on this page.</p>
+      </form>
+    </div>
+
+    <div class="thanks" id="thanks" hidden>
+      <div class="thanks__box" tabindex="-1">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#2f5a3a"/><path d="M18 33l9 9 19-20" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Thank you! <span lang="am">አመሰግናለሁ</span></h3>
+        <p>Your feedback means a lot to us. It will appear here once our team has checked it.</p>
+        <a class="btn btn--gold" id="thanksGoogle" href="#contact" target="_blank" rel="noopener noreferrer">Also leave a Google review</a>
+        <button class="btn btn--ghost-dark" type="button" id="thanksClose">Close</button>
+      </div>
+    </div>
+
+    <div class="testimonials" id="testimonials" aria-live="polite"></div>
+    <div class="center"><button class="btn btn--ghost-dark" id="moreReviews" hidden>Show more reviews</button></div>
+  </div>
+</section>
+
+<!-- ============ Contact & Location ============ -->
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <header class="section__head reveal">
+      <p class="eyebrow">Contact &amp; Location</p>
+      <h2>Come sit with us</h2>
+      <p>We would love to welcome you.</p>
+    </header>
+
+    <div class="contact__grid">
+      <div class="contact__info reveal">
+        <ul class="infolist" id="infoList"></ul>
+        <div class="contact__actions" id="contactActions"></div>
+        <p class="notice" id="configNotice" hidden>Business details are being added — check back soon, or follow us on social media.</p>
+      </div>
+      <div class="contact__map reveal d1" id="mapBox">
+        <div class="map__empty" id="mapEmpty">
+          <img src="assets/mark.png" alt="" width="64" height="50">
+          <p>Map coming soon.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="social reveal">
+      <h3>Follow Ye’ Jebena</h3>
+      <p>Coffee moments, updates and promotions — be the first to know.</p>
+      <div class="social__row" id="socialRow"></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <img class="footer__logo" src="assets/logo.png" alt="Ye’ Jebena logo" width="180" height="93" loading="lazy">
+      <p>A warm Ethiopian coffee house — the jebena ceremony, fresh coffee and real hospitality.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h4>Quick links</h4>
+      <a href="#home">Home</a><a href="#about">About Us</a><a href="#coffee">Our Coffee</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    </nav>
+    <div>
+      <h4>Contact</h4>
+      <ul class="footer__list" id="footerContact"></ul>
+    </div>
+    <div>
+      <h4>Follow us</h4>
+      <div class="social__row social__row--sm" id="footerSocial"></div>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <p>© <span id="year"></span> Ye’ Jebena | የጀበና. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lightbox__close" id="lbClose" aria-label="Close">×</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous photo">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next photo">›</button>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
